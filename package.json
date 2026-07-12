@@ -1,0 +1,30 @@
+{
+  "name": "edutech-framework",
+  "version": "1.0.0",
+  "description": "Production-Ready Enterprise Framework for Google Apps Script",
+  "main": "src/gs/Code.gs",
+  "scripts": {
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "open": "clasp open",
+    "deploy": "clasp deploy",
+    "logs": "clasp logs",
+    "version": "clasp version"
+  },
+  "keywords": [
+    "google-apps-script",
+    "framework",
+    "enterprise",
+    "crud",
+    "dashboard",
+    "authentication"
+  ],
+  "author": "EduTech Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.43",
+    "clasp": "^2.4.2",
+    "eslint": "^8.50.0"
+  },
+  "dependencies": {}
+}
